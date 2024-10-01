@@ -1,0 +1,42 @@
+* {
+    background-color: rgba(0, 100, 0, 1);
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow-y: hidden;
+}
+
+#enterGameDiv {
+    margin: auto;
+    top: 40%;
+    right: 46%;
+    position: absolute;
+}
+select {
+  margin: 0.4rem;
+}
+
+.score {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: white;
+}
+
+#enterGame {
+    width: 150px;
+    height: 35px;
+    outline: none;
+    user-select: none;
+    background-color: bisque;
+}
+
+#enterGame:hover {
+    outline: none;
+    user-select: none;
+    background-color: blanchedalmond;
+}
+
+#gameCanvas {
+    cursor:crosshair;
+}

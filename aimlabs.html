@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <p class="score">Score: <span id="scoreDisplay">0123908</span></p>
+        <canvas style="visibility: hidden;" id="gameCanvas"></canvas>
+        <div id="enterGameDiv">
+            <div id="resultsDisplayDiv" style="visibility: hidden">
+                <h3>Results:</h3> <span id="resultsDisplay"></span>
+            </div>
+            <fieldset>
+                <legend>Difficulty:</legend>
+              
+                <select id="diff" style="outline: none; user-select: none;">
+                    <option value="easy" selected>Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <!--
+                <div>
+                  <input type="checkbox" id="easyCheckbox" name="easyCheckbox" checked />
+                  <label for="easyCheckbox">Easy</label>
+                </div>
+              
+                <div>
+                  <input type="checkbox" id="mediumCheckbox" name="mediumCheckbox" />
+                  <label for="mediumCheckbox">Medium</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="hardCheckbox" name="hardCheckbox" />
+                    <label for="hardCheckbox">Hard</label>
+                </div>
+                -->
+              </fieldset><br>
+            <button id="enterGame">Enter Game</button>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
